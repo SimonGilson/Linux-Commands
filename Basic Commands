@@ -1,0 +1,20 @@
+Listing Directory
+  ls - List items in current directory 
+  ls -al - list all items including hidden items and permissions
+  
+pwd - Printing working directory 
+
+su - swithch user
+sudo - run command as sudo 
+
+Copying items
+  cp {item location to copy} {location for item to be copied to}
+  
+  
+locate - find file path of file name
+Grep -f txt item.txt - locate an item that is a text file type and the name of the file
+
+mkdir -  Make directory in the current directory - permissions will be applied depedning on the one used to create the directory.
+cd - change directory 
+cd .. - got back a directory level
+
