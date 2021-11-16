@@ -45,9 +45,14 @@
 ### Show connection between this computer and another.
 > ping
 
-curl - make a http request to a website
-
-wget {url} - download content from URL
+### Make a http request to a website 
+```
+curl
+```
+### download content from URL
+```
+wget {url} - 
+```
 
 touch [filename] To create a file with this name
 
