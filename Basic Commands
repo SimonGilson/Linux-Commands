@@ -2,7 +2,8 @@ Listing Directory
   ls - List items in current directory 
   ls -al - list all items including hidden items and permissions
   
-pwd - Printing working directory 
+Printing working directory 
+> pwd 
 
 su - swithch user
 sudo - run command as sudo 
