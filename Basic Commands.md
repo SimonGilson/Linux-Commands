@@ -11,11 +11,11 @@ swithch user
 Run a command in elevated priveledges
 > sudo
 
-Copying items
+### Copying items
 > cp {item location to copy} {location for item to be copied to}
   
   
-find file path of file name
+### Find file path of file name
 > locate
 
 Locate an item that is a text file type and the name of the file
