@@ -22,12 +22,12 @@
 > Grep -f txt item.txt 
 
 ### Make directory in the current directory - permissions will be applied depedning on the one used to create the directory.
-> mkdir 
-> rmdir - Remove directory that has not files in it.
-> rm - Remove a directory with files in it.
+> mkdir  
+> rmdir - Remove directory that has not files in it.  
+> rm - Remove a directory with files in it.  
 
 ###  Change directory 
-> cd 
+> cd  
 > cd .. - go back a directory level
 
 ### Display all network interfaces
