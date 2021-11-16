@@ -1,14 +1,14 @@
-Listing Directory
+### Listing Directory
 > ls - List items in current directory 
 > ls -al - list all items including hidden items and permissions
   
-Printing working directory 
+#### Printing working directory 
 > pwd 
 
-swithch user
+### withch user
 > su
 > 
-Run a command in elevated priveledges
+### Run a command in elevated priveledges
 > sudo
 
 ### Copying items
@@ -18,25 +18,32 @@ Run a command in elevated priveledges
 ### Find file path of file name
 > locate
 
-Locate an item that is a text file type and the name of the file
+### Locate an item that is a text file type and the name of the file
 > Grep -f txt item.txt 
 
-mkdir -  Make directory in the current directory - permissions will be applied depedning on the one used to create the directory.
-rmdir - Remove directory that has not files in it.
-rm - Remove a directory with files in it.
+### Make directory in the current directory - permissions will be applied depedning on the one used to create the directory.
+> mkdir 
+> rmdir - Remove directory that has not files in it.
+> rm - Remove a directory with files in it.
 
-cd - change directory 
-cd .. - got back a directory level
+###  Change directory 
+> cd 
+> cd .. - go back a directory level
 
-ifconfig - Display all network interfaces
+### Display all network interfaces
+>ifconfig
 
-nc - Netcat. Use to open a listener on the device. 
+### Netcat. Use to open a listener on the device. 
+> nc
 
-nano - view a file in nano or start a blank file
+### View a file in nano or start a blank file
+> nano
 
-cat  - display document in terminal
+### - Display document in terminal
+> cat
 
-ping - show connection between this computer and another.
+### Show connection between this computer and another.
+> ping
 
 curl - make a http request to a website
 
