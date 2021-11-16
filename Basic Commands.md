@@ -1,19 +1,25 @@
 Listing Directory
-  ls - List items in current directory 
-  ls -al - list all items including hidden items and permissions
+> ls - List items in current directory 
+> ls -al - list all items including hidden items and permissions
   
 Printing working directory 
 > pwd 
 
-su - swithch user
-sudo - run command as sudo 
+swithch user
+> su
+> 
+Run a command in elevated priveledges
+> sudo
 
 Copying items
- cp {item location to copy} {location for item to be copied to}
+> cp {item location to copy} {location for item to be copied to}
   
   
-locate - find file path of file name
-Grep -f txt item.txt - locate an item that is a text file type and the name of the file
+find file path of file name
+> locate
+
+Locate an item that is a text file type and the name of the file
+> Grep -f txt item.txt 
 
 mkdir -  Make directory in the current directory - permissions will be applied depedning on the one used to create the directory.
 rmdir - Remove directory that has not files in it.
