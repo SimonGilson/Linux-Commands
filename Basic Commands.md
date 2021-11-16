@@ -1,43 +1,56 @@
 ### Listing Directory
-> ls - List items in current directory 
-> ls -al - list all items including hidden items and permissions
-  
+```
+ls - List items in current directory 
+ls -al - list all items including hidden items and permissions
+```
 #### Printing working directory 
-> pwd 
+```
+pwd 
+```
 
-### withch user
-> su
-> 
+### switch user
+```
+su
+```
+
 ### Run a command in elevated priveledges
-> sudo
-
+```
+sudo
+```
 ### Copying items
-> cp {item location to copy} {location for item to be copied to}
-  
+```
+cp {item location to copy} {location for item to be copied to}
+```  
   
 ### Find file path of file name
-> locate
+```
+locate
+```
 
 ### Locate an item that is a text file type and the name of the file
-> Grep -f txt item.txt 
+```
+Grep -f txt item.txt 
+```
 
 ### Make directory in the current directory - permissions will be applied depedning on the one used to create the directory.
-> mkdir  
-> rmdir - Remove directory that has not files in it.  
-> rm - Remove a directory with files in it.  
+```
+mkdir  
+rmdir - Remove directory that has not files in it.  
+rm - Remove a directory with files in it.  
+```
 
 ###  Change directory 
-> cd  
-> cd .. - go back a directory level
+cd  
+cd .. - go back a directory level
 
 ### Display all network interfaces
->ifconfig
+ifconfig
 
 ### Netcat. Use to open a listener on the device. 
-> nc
+nc
 
 ### View a file in nano or start a blank file
-> nano
+nano
 
 ### - Display document in terminal
 > cat
