@@ -68,24 +68,24 @@ ping
 ```
 curl
 ```
-### download content from URL
+### Download content from URL
 ```
 wget {url} - 
 ```
 
-###To create a file with this name
+### To create a file with this name
 ```
 touch [filename]
 ```
-###Usueful fo adding text to a file example echo Hello World >> test.txt will add the text to the file.
+### Usueful fo adding text to a file example echo Hello World >> test.txt will add the text to the file.
 ```
 echo - 
 ```
-###Change permissions on a file. Example chmod +x example.py will make the .py executable.
+### Change permissions on a file. Example chmod +x example.py will make the .py executable.
 ```
 chmod 
 ```
-###Displays the name of the machine that the terminal is on.
+### Displays the name of the machine that the terminal is on.
 ```
 hostname 
 ```
