@@ -40,24 +40,30 @@ rm - Remove a directory with files in it.
 ```
 
 ###  Change directory 
+```
 cd  
 cd .. - go back a directory level
-
+```
 ### Display all network interfaces
+```
 ifconfig
-
+```
 ### Netcat. Use to open a listener on the device. 
+```
 nc
-
+```
 ### View a file in nano or start a blank file
+```
 nano
-
+```
 ### - Display document in terminal
-> cat
-
+```
+cat
+```
 ### Show connection between this computer and another.
-> ping
-
+```
+ping
+```
 ### Make a http request to a website 
 ```
 curl
@@ -67,15 +73,39 @@ curl
 wget {url} - 
 ```
 
-touch [filename] To create a file with this name
+###To create a file with this name
+```
+touch [filename]
+```
+###Usueful fo adding text to a file example echo Hello World >> test.txt will add the text to the file.
+```
+echo - 
+```
+###Change permissions on a file. Example chmod +x example.py will make the .py executable.
+```
+chmod 
+```
+###Displays the name of the machine that the terminal is on.
+```
+hostname 
+```
 
-echo - Usueful fo adding text to a file example echo Hello World >> test.txt will add the text to the file.
+### Use to install packages. Example sudo apt-get pip will download the packages needed for pip.
+```
+apt-get 
+```
 
-chmod - Change permissions on a file. Example chmod +x example.py will make the .py executable.
 
-hostname - Displays the name of the machine that the terminal is on.
 
-apt-get - Use to install packages. Example sudo apt-get pip will download the packages needed for pip.
+
+
+
+
+
+
+
+
+
 
 man - show the manual for a tool. Example nmap man will show the manual for Nmap.
 
