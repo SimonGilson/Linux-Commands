@@ -32,7 +32,7 @@ locate
 Grep -f txt item.txt 
 ```
 
-### Make directory in the current directory - permissions will be applied depedning on the one used to create the directory.
+### Make directory in the current directory - permissions will be applied depending on the one used to create the directory.
 ```
 mkdir  
 rmdir - Remove directory that has not files in it.  
@@ -56,7 +56,7 @@ nc
 ```
 nano
 ```
-### - Display document in terminal
+###  Display document in terminal
 ```
 cat
 ```
@@ -94,20 +94,10 @@ hostname
 ```
 apt-get 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-man - show the manual for a tool. Example nmap man will show the manual for Nmap.
+### Show the manual for a tool. 
+```
+[tool name] man
+```
 
 
 
