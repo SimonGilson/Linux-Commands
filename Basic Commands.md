@@ -99,5 +99,22 @@ apt-get
 [tool name] man
 ```
 
+### Download the url in a txt file.
+```
+wget http://url -O url.txt -o /dev/null
+wget http://url - when viewing raw code from github will download the code in it own file.
+
+```
+
+### Put File
+```
+scp /tmp/file user@x.x.x.x.:/tmp/file
+```
+### Get File
+```
+scp user@<remoteip>:/tmp/file /tmp/file
+```
+
+
 
 
