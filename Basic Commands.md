@@ -77,9 +77,9 @@ wget {url} -
 ```
 touch [filename]
 ```
-### Usueful fo adding text to a file example echo Hello World >> test.txt will add the text to the file.
+### Usueful fo adding text to a file example 
 ```
-echo - 
+echo - echo Hello World >> test.txt will add the text to the file.
 ```
 ### Change permissions on a file. Example chmod +x example.py will make the .py executable.
 ```
