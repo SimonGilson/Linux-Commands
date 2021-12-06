@@ -115,6 +115,15 @@ scp /tmp/file user@x.x.x.x.:/tmp/file
 scp user@<remoteip>:/tmp/file /tmp/file
 ```
 
+### Deleting directory 
+```
+rm -rf <dir>
+```
+
+### List connected drives
+```
+sudo fdisk -l
+```
 
 
 
