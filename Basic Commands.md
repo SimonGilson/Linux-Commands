@@ -62,11 +62,11 @@ cat
 ```
 ### Show connection between this computer and another.
 ```
-ping
+ping IP
 ```
 ### Make a http request to a website 
 ```
-curl
+curl https://URL
 ```
 ### Download content from URL
 ```
@@ -83,7 +83,7 @@ echo - echo Hello World >> test.txt will add the text to the file.
 ```
 ### Change permissions on a file. Example chmod +x example.py will make the .py executable.
 ```
-chmod 
+chmod +x filename
 ```
 ### Displays the name of the machine that the terminal is on.
 ```
@@ -125,5 +125,38 @@ rm -rf <dir>
 sudo fdisk -l
 ```
 
+#### Linux System Info
 
+### Get hostname for IP
+```
+nbstat -A <ip> 
+```
+### Current Username
+```
+id
+```
+### logged on users
+```
+w
+```
+### User Information
+```
+who -a 
+```
+### Last users logged on
+```
+last -a 
+```
+### Process listing {top}
+```
+ps -ef
+```
+### Disk Usuage
+```
+df -h
+```
+### Kernel Version/ CPU info
+```
+unanme -a
+```
 
