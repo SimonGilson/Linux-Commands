@@ -125,7 +125,7 @@ rm -rf <dir>
 sudo fdisk -l
 ```
 
-#### Linux System Info
+# Linux System Info
 
 ### Get hostname for IP
 ```
